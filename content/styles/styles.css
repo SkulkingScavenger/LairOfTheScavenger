@@ -38,7 +38,7 @@ h2 {
   overflow: auto; }
 
 ul {
-  list-style: none; }
+  list-style-type: none; }
 
 /*****************
 components/_navbar.scss
