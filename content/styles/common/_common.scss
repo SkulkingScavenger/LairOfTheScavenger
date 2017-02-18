@@ -1,0 +1,47 @@
+/*****************
+common/_common.scss
+*****************/
+
+a {
+	color: $text-link;
+	&:hover{
+		color: $text-dark;
+	}
+	&:visited{
+		color: $text-dark;
+	}
+}
+
+body {
+	background: #000000;
+	background-size: cover;
+	font-family: "Times New Roman", sans-serif;
+	color: $text-primary;
+}
+
+h1 {
+	text-align: center;
+	color: $text-header;
+	font-weight: 1200;
+}
+
+h2 {
+	text-align: center;
+	color: $text-header;
+}
+
+.header {
+	text-align: center;
+	color: #ff0000;
+	width: 100%;
+	margin-bottom: 25px;
+	padding: 12px;
+	border-bottom: 2px solid;
+	border-color: #840000;
+	background: #000000;
+	overflow:auto;
+}
+
+ul {
+	list-style: none;
+}

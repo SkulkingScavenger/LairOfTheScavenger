@@ -64,7 +64,7 @@ h2 {
 	color: #ff0000;
 }
 
-#header {
+.header {
 	text-align: center;
 	color: #ff0000;
 	width: 100%;
@@ -76,19 +76,19 @@ h2 {
 	overflow:auto;
 }
 
-#footer {
+.footer {
 	text-align: center;
 	color: #840000;
 }
 
-#main{
+.main{
 	color: #ff0000;
 	width: 100%;
 	overflow: auto;
 	padding-right: 5%;
 }
 
-#onlycolumn{
+.onlycolumn{
 	padding: 5px;
 	width: 96%;
 	margin: 2%;
@@ -96,7 +96,7 @@ h2 {
 	border-color: #840000;
 }
 
-#rightcolumn{
+.rightcolumn{
 	margin-right: 3%;
 	float: left;
 	width: 20%;
@@ -106,14 +106,14 @@ h2 {
 	overflow: auto;
 }
 
-#centercolumn{
+.centercolumn{
 	float: left;
 	width: 46%;
 	padding: 10px;
 	overflow: auto;
 }
 
-#leftcolumn{
+.leftcolumn{
 	margin-left: 3%;
 	float:left;
 	width: 20%;
