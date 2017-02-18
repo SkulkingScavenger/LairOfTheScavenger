@@ -15,19 +15,26 @@ a {
 body {
 	background: #000000;
 	background-size: cover;
-	font-family: "Times New Roman", sans-serif;
+	font-family: "IM Fell DW Pica", "Times New Roman", serif;
 	color: $text-primary;
 }
 
-h1 {
-	text-align: center;
-	color: $text-header;
-	font-weight: 1200;
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
 }
 
-h2 {
+h1,h2,h3,h4,h5,h6 {
 	text-align: center;
+	font-family: 'UnifrakturMaguntia', cursive;
 	color: $text-header;
+	
+}
+
+h1 {
+	font-weight: 1200;
 }
 
 .header {
@@ -44,4 +51,54 @@ h2 {
 
 ul {
 	list-style-type: none;
+}
+
+.pull-left{
+	float:left!important;
+}
+.pull-right{
+	float:right!important;
+}
+
+.col{
+	padding: 0px 20px;
+	&.no-gutter{
+
+	}
+	&.md12{
+		width: 100%;
+	}
+	&.md11{
+		
+	}
+	&.md10{
+		
+	}
+	&.md9{
+		
+	}
+	&.md8{
+		
+	}
+	&.md7{
+		
+	}
+	&.md6{
+		
+	}
+	&.md5{
+		
+	}
+	&.md4{
+		
+	}
+	&.md3{
+		
+	}
+	&.md2{
+		
+	}
+	&.md1{
+		
+	}
 }

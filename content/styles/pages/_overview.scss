@@ -3,50 +3,12 @@ pages/_overview.scss
 *****************/
 
 .main{
-	color: #ff0000;
+	background-color: $background-dark;
 	width: 100%;
-	overflow: auto;
-	padding-right: 5%;
+	margin:5%
 }
 
-.onlycolumn{
-	padding: 5px;
-	width: 96%;
-	margin: 2%;
-	border: 4px solid;
-	border-color: #840000;
-}
+.panel{
 
-.rightcolumn{
-	margin-right: 3%;
-	float: left;
-	width: 20%;
-	padding: 10px;
-	padding-bottom: 50px;
-	border: 4px solid;
-	overflow: auto;
-}
 
-.centercolumn{
-	float: left;
-	width: 46%;
-	padding: 10px;
-	overflow: auto;
-}
-
-.leftcolumn{
-	margin-left: 3%;
-	float:left;
-	width: 20%;
-	padding: 10px;
-	padding-bottom: 50px;
-	border: 4px solid;
-	overflow: auto;
-}
-
-.textwall {
-	margin: 50px;
-	p{
-		text-indent: 50px;
-	}
 }
