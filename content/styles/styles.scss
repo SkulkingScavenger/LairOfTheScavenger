@@ -1,4 +1,53 @@
-@import "common/variables";
-@import "common/common";
-@import "components/navbar";
-@import "pages/overview";
+/*
+Error: Invalid CSS after "#ff9900": expected expression (e.g. 1px, bold), was "; }"
+        on line 8 of styles.css
+
+3: *****************\/
+4: /*****************
+5: common/_common.scss
+6: *****************\/
+7: a {
+8:   color: #ff9900; }
+9:   a:hover {
+10:     color: #470101; }
+11:   a:visited {
+12:     color: #470101; }
+13: 
+
+Backtrace:
+styles.css:8
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/script/lexer.rb:229:in `expected!'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/script/parser.rb:744:in `assert_done'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/script/parser.rb:76:in `parse'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/script/parser.rb:240:in `parse'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/script.rb:27:in `parse'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:1151:in `parse_script'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:721:in `parse_property'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:692:in `parse_property_or_rule'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:658:in `parse_line'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:536:in `build_tree'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:555:in `block in append_children'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:554:in `each'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:554:in `append_children'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:545:in `block in build_tree'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:538:in `each'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:538:in `build_tree'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:555:in `block in append_children'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:554:in `each'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:554:in `append_children'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:409:in `_to_tree'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:391:in `run'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
+D:/Ruby22-x64/bin/sass:23:in `load'
+D:/Ruby22-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"#ff9900\": expected expression (e.g. 1px, bold), was \"; }\"\A         on line 8 of styles.css\A \A 3: *****************/\A 4: /*****************\A 5: common/_common.scss\A 6: *****************/\A 7: a {\A 8:   color: #ff9900; }\A 9:   a:hover {\A 10:     color: #470101; }\A 11:   a:visited {\A 12:     color: #470101; }\A 13: "; }
