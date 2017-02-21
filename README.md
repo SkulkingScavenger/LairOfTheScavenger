@@ -9,4 +9,3 @@ Supremest Nerdery, and primeval lack of funds.
 Before me stuff webhosted were none, save things  
 Temporary, and temporarily I endure.  
 Abandon all hope, ye who enter here."
-
