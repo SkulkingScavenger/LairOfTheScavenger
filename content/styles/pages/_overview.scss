@@ -3,11 +3,21 @@ pages/_overview.scss
 *****************/
 
 .main{
-	background-color: $background-dark;
-	margin:5%
+	background-color: $background-black;
+	margin:5%;
+	.illustration{
+		margin-top: 20px;
+		padding: 0px;
+		width: 100%;
+	}
 }
 
 .panel{
+	background-color: $background-dark;
+	padding: 20px;
+	border-radius: 4px;
+	margin-top: 20px;
+	.panel-title{
 
-
+	}
 }

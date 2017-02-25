@@ -5,6 +5,7 @@ common/_variables.scss
 common/_common.scss
 *****************/
 a {
+  text-decoration: none;
   color: #ff9900; }
   a:hover {
     color: #470101; }
@@ -59,10 +60,24 @@ ul {
 /*****************
 components/_navbar.scss
 *****************/
-div.navbar {
+.navbar {
+  background-color: #0f0f0f;
   text-align: center;
-  width: 80%;
-  margin-left: 10%; }
+  width: 100%;
+  margin-bottom: 20px;
+  height: 60px; }
+  .navbar .navbar-menu {
+    margin-left: 25%;
+    width: 50%; }
+    .navbar .navbar-menu .navbar-item {
+      float: left;
+      height: 60px;
+      padding-top: 20px; }
+      .navbar .navbar-menu .navbar-item a {
+        border-right: 1px solid #470101;
+        padding: 0px 10px; }
+      .navbar .navbar-menu .navbar-item:last-child a {
+        border-right: none; }
 
 /*****************
 pages/_overview.scss
@@ -70,5 +85,15 @@ pages/_overview.scss
 .main {
   background-color: #000000;
   margin: 5%; }
+  .main .illustration {
+    margin-top: 20px;
+    padding: 0px;
+    width: 100%; }
+
+.panel {
+  background-color: #0f0f0f;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 20px; }
 
 /*# sourceMappingURL=styles.css.map */

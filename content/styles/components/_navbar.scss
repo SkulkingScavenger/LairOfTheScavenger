@@ -2,8 +2,27 @@
 components/_navbar.scss
 *****************/
 
-div.navbar {
+.navbar {
+	background-color: $background-dark;
 	text-align: center;
-	width: 80%;
-	margin-left: 10%;
+	width: 100%;
+	margin-bottom: 20px;
+	height:60px;
+	.navbar-menu{
+		margin-left: 25%;
+		width:50%;
+		.navbar-item {
+			float:left;
+			height: 60px;
+			padding-top: 20px; 
+			a{
+				border-right: 1px solid $text-dark;
+				padding: 0px 10px;
+				
+			}
+			&:last-child a{
+				border-right: none;
+			}
+		}
+	}
 }
